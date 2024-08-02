@@ -1361,3 +1361,10 @@ section {
     text-align-last: center;
   }
 }
+
+
+.booknow{
+  background: transparent;
+  color: white;
+  border:0px;
+}
