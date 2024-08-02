@@ -1388,6 +1388,10 @@ section {
 	margin-top:16px;
 }
 
+.rotating-image {
+  display: inline-block;
+  animation: rotate 500s linear infinite;
+}
 
 @keyframes rotate {
   from {
@@ -1398,7 +1402,7 @@ section {
   }
 }
 
-/* Apply the animation to the image */
-.rotating-image {
-  animation: rotate 2s linear infinite !important; /* Apply the rotation animation */
+.rotating-image img {
+  width: 200px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
 }
