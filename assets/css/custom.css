@@ -128,7 +128,7 @@
     transition: background-color 0.3s;
 }
 .pricing-palden .pricing-action:hover, .pricing-palden .pricing-action:focus {
-    background-color: #100a13;
+    background-color: #2c4160;
 }
 .pricing-palden .pricing-item--featured .pricing-deco {
     padding: 3em 0 8.885em 0;
